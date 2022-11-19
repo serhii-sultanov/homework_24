@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.label-name {
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 100px;
+  border: none;
+  background-color: #07da63;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.btn-reset {
+  border: none;
+  background: none;
+  font-size: 14px;
+  text-decoration: underline;
+  width: 100px;
+}
+
+.country {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
